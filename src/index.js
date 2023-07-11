@@ -18,8 +18,21 @@ client.on('messageCreate', (msg)=>{
     if(msg.author.bot){
         return;
     }
+    if(msg.author.username === "dung.nguyenxuan"){
+        msg.reply("fuckkkkkkkkkkkkkkkkkkkkkk you");
+        return; 
+    } 
+    if(msg.author.username === "myeooo"){
+        
+    }
     if(msg.content === "hello"){
         msg.reply("meo meo");
+    }
+    if(msg.content === "math"){
+        msg.reply("Alan Becker Animation vs Math");
+    }
+    if(msg.content.includes("chị liên")){
+        msg.reply("Tao chưa thấy con đàn bà nào bỏ chồng mà xây được nhà cả");
     }
 })
 
